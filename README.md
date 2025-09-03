@@ -1,6 +1,6 @@
 # No Hidden Advancements
 
-A Minecraft Fabric mod that removes the anvil level 40 limit, allowing unlimited enchantment combinations and repairs.
+A Minecraft Fabric mod that makes all hidden advancements visible in the UI
 
 ## Features
 
