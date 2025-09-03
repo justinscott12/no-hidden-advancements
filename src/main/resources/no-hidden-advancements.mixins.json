@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.nohiddenadvancements.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "no-hidden-advancements.refmap.json",
+    "mixins": [
+    ],
+    "client": [
+        "AdvancementDisplayMixin"
+    ],
+    "server": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

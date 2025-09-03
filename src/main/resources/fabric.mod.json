@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "no-hidden-advancements",
+    "version": "1.21.8",
+    "name": "No Hidden Advancements",
+    "description": "Makes all hidden advancements visible in the UI",
+    "authors": [
+        "Froz3nKill3r69"
+    ],
+    "contact": {
+        "homepage": "https://github.com/justinscott12",
+        "sources": "https://github.com/justinscott12/no-hidden-advancements"
+    },
+    "license": "MIT",
+    "icon": "assets/no-hidden-advancements/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+          "com.nohiddenadvancements.NoHiddenAdvancementsMod"
+        ]
+    },
+    "mixins": [
+      "no-hidden-advancements.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
