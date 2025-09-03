@@ -16,7 +16,8 @@ A Minecraft Fabric mod that makes all hidden advancements visible in the UI
   - "Planting the Past"
 - Compatible with Minecraft 1.21.8
 
-![example.png](src/main/resources/assets/no-anvil-limit/example.png)
+![example.png](src/main/resources/assets/no-hidden-advancements/example.png)
+![arbalistic.png](src/main/resources/assets/no-hidden-advancements/arbalistic.png)
 
 ## Download
 - If you just want the mod itself and you don't care about the source code, just download the jar file for the corresponding Minecraft version from the releases folder
