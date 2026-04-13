@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "no-hidden-advancements",
-    "version": "1.21.8",
+    "version": "${version}",
     "name": "No Hidden Advancements",
     "description": "Makes all hidden advancements visible in the UI",
     "authors": [
