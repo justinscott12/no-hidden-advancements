@@ -2,6 +2,13 @@
 
 A Minecraft Fabric mod that makes all hidden advancements visible in the UI
 
+> **Intended to be paired with [Better Advancements](https://modrinth.com/mod/better-advancements).**
+> The vanilla advancements screen only draws advancements the server sends the
+> client (earned ones and their reachable neighbours), so on its own this mod
+> only un-hides the `hidden`-flagged entries. Better Advancements changes the
+> screen to render **all** advancements, and this mod complements it by
+> revealing the hidden ones too. Install both for the full effect.
+
 ## Features
 
 - Makes all hidden advancements visible in the UI:
@@ -14,7 +21,7 @@ A Minecraft Fabric mod that makes all hidden advancements visible in the UI
   - "Birthday Song"
   - "Little Sniffs"
   - "Planting the Past"
-- Compatible with Minecraft 1.21.8
+- Compatible with Minecraft 26.2
 
 ![example.png](src/main/resources/assets/no-hidden-advancements/example.png)
 ![arbalistic.png](src/main/resources/assets/no-hidden-advancements/arbalistic.png)
@@ -26,8 +33,9 @@ A Minecraft Fabric mod that makes all hidden advancements visible in the UI
 
 1. Install [Fabric Loader](https://fabricmc.net/use/installer/)
 2. Install [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-3. Download the latest release of this mod
-4. Place the mod file in your `mods` folder
+3. Install [Better Advancements](https://modrinth.com/mod/better-advancements) (strongly recommended — needed to actually render all advancements)
+4. Download the latest release of this mod
+5. Place the mod files in your `mods` folder
 
 ## Building
 
@@ -54,17 +62,14 @@ To build the mod yourself:
 
 ## Usage
 
-Simply install the mod and use anvils as normal. The level 40 limit will be completely removed, allowing you to:
-
-- Combine highly enchanted items
-- Repair items without level restrictions
-- Create powerful enchantment combinations that were previously impossible
+Install the mod (alongside [Better Advancements](https://modrinth.com/mod/better-advancements)) and open the Advancements screen as normal. Hidden advancements — the ones vanilla keeps invisible until you earn them — will now be shown, so you can see what's left to complete.
 
 ## Compatibility
 
-- Minecraft: 1.21.8
-- Fabric Loader: 0.16.9+
-- Fabric API: 0.110.0+1.21.8
+- Minecraft: 26.2
+- Fabric Loader: 0.19.3+
+- Fabric API: 0.158.0+26.2
+- Recommended: [Better Advancements](https://modrinth.com/mod/better-advancements)
 
 ## License
 
